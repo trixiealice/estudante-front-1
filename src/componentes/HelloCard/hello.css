@@ -1,46 +1,25 @@
-.hello-card {
+.helloDiv {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  width: 100%;
-  max-width: 640px;
-  background-color: rgba(255, 255, 255, 0.55) ;
+  font-family: 'Alice';
+  -webkit-text-stroke-width: 1.3px; /* largura da borda */
+  width: 60vh;
+  height: 12vh;
 }
 
-.hello-card__info {
+.div-textos {
   display: flex;
-  align-items: center;
-  gap: 16px;
+  flex-direction: column;
+  align-items: start;
 }
-
-.hello-card__icon {
-  width: 40px;
-  height: 40px;
-}
-
-.hello-card__title {
-  font-size: 1.5rem;
-  font-weight: 700;
+.ola-usuario {
   color: #20311D;
-  margin: 0;
+  font-size: 30px;
+  font-weight: bold ;
 }
 
-.hello-card__subtitle {
+.subtitulo {
   color: #5C6754;
-  margin: 4px 0 0;
-}
 
-.hello-card__image {
-  width: 128px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 12px;
-  display: none;
-}
-
-@media (min-width: 640px) {
-  .hello-card__image {
-    display: block;
-  }
 }

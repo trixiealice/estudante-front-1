@@ -1,17 +1,33 @@
-.custom-button {
+.mais-bloom {
   background: linear-gradient(#435F3F, #364E32) ;
-  width: 50vh;
-  height: 10vh;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 10px 20px;
+  width: 20vh;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-.custom-button:active {
+.mais-bloom span {
+  color: #ffffff;
+  font-family: 'Alice';  
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  padding-right: 10px;
+
+}
+
+.icon-left {
+  height: 3vh;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.mais-bloom:active {
   transform: scale(0.98);
 }
