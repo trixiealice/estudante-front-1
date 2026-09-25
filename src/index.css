@@ -1,7 +1,7 @@
 :root {
   --text: #6b6375;
   --text-h: #08060d;
-  --bg: #880000;
+  --bg: #b1e1ea;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
@@ -51,7 +51,15 @@
 }
 
 body {
-  margin: 0;
+  background-image: url(./assets/img/259e61cf-a4ea-4e02-b637-02729f767579\ 1.png);
+
+    background-size: cover;       /* Faz a imagem se esticar/encolher para cobrir a tela toda */
+    background-position: center;  /* Centraliza a imagem na tela (evita que corte os lados importantes) */
+    background-repeat: no-repeat; /* Impede que a imagem fique se repetindo como um mosaico */
+    background-attachment: fixed; /* Mantém o fundo fixo enquanto você rola a página */
+    min-height: 100vh;   
+    margin: 0;
+  
 }
 
 #root {

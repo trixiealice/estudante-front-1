@@ -1,0 +1,46 @@
+.hello-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  max-width: 640px;
+  background-color: rgba(255, 255, 255, 0.55) ;
+}
+
+.hello-card__info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hello-card__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.hello-card__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #20311D;
+  margin: 0;
+}
+
+.hello-card__subtitle {
+  color: #5C6754;
+  margin: 4px 0 0;
+}
+
+.hello-card__image {
+  width: 128px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .hello-card__image {
+    display: block;
+  }
+}

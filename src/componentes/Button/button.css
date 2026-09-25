@@ -1,0 +1,17 @@
+.custom-button {
+  background: linear-gradient(#435F3F, #364E32) ;
+  width: 50vh;
+  height: 10vh;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.custom-button:active {
+  transform: scale(0.98);
+}
