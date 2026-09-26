@@ -1,25 +1,34 @@
 .helloDiv {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px;
   font-family: 'Alice';
-  -webkit-text-stroke-width: 1.3px; /* largura da borda */
-  width: 60vh;
-  height: 12vh;
+  -webkit-text-stroke-width: 1.3px; 
+  width: 500px;
+  height: 100px;
+  padding: 0 20px;
+  overflow: hidden;
+  
 }
 
 .div-textos {
   display: flex;
   flex-direction: column;
   align-items: start;
+  gap: 8px;
 }
+
 .ola-usuario {
   color: #20311D;
   font-size: 30px;
-  font-weight: bold ;
+  font-weight: bold;
 }
 
 .subtitulo {
   color: #5C6754;
+  font-size: 22px;
+}
 
+.helloDiv img {
+  height: 45px;
 }
